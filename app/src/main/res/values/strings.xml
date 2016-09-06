@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StateView</string>
+    <string name="InflateEmpty">show empty</string>
+    <string name="InflateRetry">show retry</string>
+    <string name="InflateLoading">show loading</string>
+    <string name="ShowContent">show content</string>
+
+</resources>
+

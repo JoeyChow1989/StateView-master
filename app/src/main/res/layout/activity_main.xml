@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.github.nukc.sample.MainActivity">
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default Layout"/>
+
+    <Button
+        android:id="@+id/btn_inject_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inject Activity"/>
+
+    <Button
+        android:id="@+id/btn_inject_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inject Fragment"/>
+
+    <Button
+        android:id="@+id/btn_custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom View"/>
+</LinearLayout>
